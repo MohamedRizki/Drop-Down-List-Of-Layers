@@ -1,0 +1,23 @@
+{
+  "name": "Drop-Down List Of Layers",
+  "label": "Drop-Down List Of Layers",
+  "type": "widget",
+  "version": "1.14.0",
+  "exbVersion": "1.14.0",
+  "author": "Mohamed RIZKI",
+  "description": "Displays the layers of a Web Map",
+  "dependency": "jimu-arcgis",
+  "properties": {
+    "hasConfig": true,
+    "hasSetting": true
+  },
+  "requiredDataSources": [{
+    "type": "FEATURE_LAYER",
+    "label": "Feature Layer"
+  }],
+  "translatedLocales": ["en", "fr"],
+  "defaultSize": {
+    "width": 300,
+    "height": 200
+  }
+}
