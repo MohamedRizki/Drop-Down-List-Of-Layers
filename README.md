@@ -46,3 +46,6 @@ layers.forEach(l => {
 if (layer.fullExtent) {
   view.goTo(layer.fullExtent);
 }
+```
+
+Contact : Mohamedrizki07@gmail.com
